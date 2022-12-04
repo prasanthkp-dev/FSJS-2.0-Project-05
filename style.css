@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin:0 auto;
+    max-width: 1280px;
+}
+
+/* navigation  */
+
+nav {
+  display: flex;
+  margin: 40px 40px;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 1024px; */
+}
+
+.nav-link ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.nav-link ul a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+/* Banner  */
+
+.hero {
+  display: flex;
+}
+
+/* Banner hero left  */
+.hero .hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.hero .top-angle,.bottom-angle {
+  width: 20px;
+}
+
+.hero .mouse {
+  width: 30px;
+}
+
+.hero .hero-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hero-left h3{
+  font-size: 85px;
+  margin: 0;
+}
+
+
+.hero .hero-left .button {
+  align-self: flex-start;
+  position: relative;
+  background: #20BC7E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Hero right section  */
+
+.hero .hero-right .green-box {
+  position: absolute;
+  width: 32%;
+  right: 0;
+}
+
+.hero .hero-right .yellow-box {
+  position: absolute;
+  width: 27%;
+  right: 0;
+}
+
+.hero .hero-right .doctor {
+  position: absolute;
+  height: 90%;
+  right: 0;
+}
+
